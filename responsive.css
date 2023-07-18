@@ -1,0 +1,74 @@
+@media screen and (max-width:576px) 
+{
+    body{
+        font-size:1rem;
+    }
+    .nav-menu >h1{
+        text-align: center;
+        padding:1vh;
+    }
+    .nav-menu , .nav-bar 
+    {
+        flex-direction: column;
+        padding:1vh;
+       
+    }
+    .icons{
+        width: auto;
+    }
+   
+    .nav-bar{
+        gap:1vh;
+    }
+    .container-description {
+        flex-direction: column-reverse;
+        max-width: 100%;
+       text-align: center; 
+    }
+    .camera{
+        position: relative;
+        left: 0px;
+    }
+    .description h1{
+        font-size: 1.2rem;
+       
+
+    }
+    .description{
+        max-width: 100%;}
+    
+    .sponsors{
+
+            display:grid;
+            grid-template-columns: repeat(1,1fr);
+            gap:1vh;
+            background-color: #C4DFDF;
+            margin:0px 0vw;
+            height: 50vh;
+            padding:0 50vw;
+        
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .article{
+            margin:0px;
+            justify-content: start;
+            flex-direction: column;
+            height: 100vh;
+            align-items: start;
+        }
+        .image{
+            padding:0px;
+            height: 100%;
+            margin: 0px;
+            width: 100%;
+}  
+.btn-primary{
+    margin-bottom: 5vh;
+}
+
+
+
+}
